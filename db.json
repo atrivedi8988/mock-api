@@ -1,22 +1,1270 @@
 {
-    "feedback": [
-        {
-            "id": 1,
-            "rating": 10,
-            "user_name": "Tony Stark",
-            "text": "You are the ironman of this world"
-        },
-        {
-            "id": 2,
-            "rating": 9,
-            "user_name": "Bruce Wayne",
-            "text": "You are the batman of this world"
-        },
-        {
-            "id": 3,
-            "rating": 8,
-            "user_name": "Peter Parker",
-            "text": "You are the spiderman of this world"
-        }
-    ]
+  "posts": [
+    {
+      "id": 1,
+      "title": "Hello World",
+      "body": "Quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
+    },
+    {
+      "id": 2,
+      "title": "Eum Et Est Occaecati",
+      "body": "Recusandae consequuntur expedita et cum\nreprehenderit ut quas totam\nautem sunt rem eveniet architecto"
+    },
+    {
+      "id": 3,
+      "title": "Eum Et Est Occaecati",
+      "body": "Recusandae consequuntur expedita et cum\nreprehenderit ut quas totam\nautem sunt rem eveniet architecto"
+    },
+    {
+      "id": 4,
+      "title": "React",
+      "body": "Learn Hooks"
+    }
+  ],
+  "tasks": [
+    {
+      "id": 1,
+      "title": "new",
+      "status": false
+    },
+    {
+      "id": 2,
+      "title": "new todo",
+      "status": false
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "albert",
+      "age": 25,
+      "rating": 3.2
+    },
+    {
+      "id": 2,
+      "name": "aman",
+      "age": 21,
+      "rating": 3.6
+    },
+    {
+      "id": 3,
+      "name": "ankur",
+      "age": 28,
+      "rating": 4.1
+    },
+    {
+      "id": 4,
+      "name": "nrupul",
+      "age": 24,
+      "rating": 4
+    },
+    {
+      "id": 5,
+      "name": "sandhya",
+      "age": 22,
+      "rating": 5
+    },
+    {
+      "id": 6,
+      "name": "santosh",
+      "age": 20,
+      "rating": 4.5
+    },
+    {
+      "id": 7,
+      "name": "vetri",
+      "age": 19,
+      "rating": 4.2
+    },
+    {
+      "id": 8,
+      "name": "santhi",
+      "age": 20,
+      "rating": 5
+    }
+  ],
+  "cities": [
+    {
+      "name": "Palm Bay",
+      "population": 55744,
+      "country": "Guinea-Bissau",
+      "id": "1"
+    },
+    {
+      "name": "Ponce",
+      "population": 87718,
+      "country": "Martinique",
+      "id": "2"
+    },
+    {
+      "name": "Fort Lauderdale",
+      "population": 6287,
+      "country": "Greenland",
+      "id": "3"
+    },
+    {
+      "name": "San Luis Obispo",
+      "population": 3949,
+      "country": "Macedonia",
+      "id": "4"
+    },
+    {
+      "name": "Coconut Creek",
+      "population": 25092,
+      "country": "Guernsey",
+      "id": "5"
+    },
+    {
+      "name": "Jackson",
+      "population": 34293,
+      "country": "Malta",
+      "id": "6"
+    },
+    {
+      "name": "Escondido",
+      "population": 47343,
+      "country": "Jersey",
+      "id": "7"
+    },
+    {
+      "name": "Davie",
+      "population": 18390,
+      "country": "Guinea-Bissau",
+      "id": "8"
+    },
+    {
+      "name": "Brooklyn Park",
+      "population": 516,
+      "country": "Cote d'Ivoire",
+      "id": "9"
+    },
+    {
+      "name": "Bayonne",
+      "population": 8883,
+      "country": "Pitcairn Islands",
+      "id": "10"
+    },
+    {
+      "name": "Santa Maria",
+      "population": 50267,
+      "country": "United Arab Emirates",
+      "id": "11"
+    },
+    {
+      "name": "Paradise",
+      "population": 71209,
+      "country": "Turkmenistan",
+      "id": "12"
+    },
+    {
+      "name": "Kansas City",
+      "population": 41010,
+      "country": "Georgia",
+      "id": "13"
+    },
+    {
+      "name": "Niagara Falls",
+      "population": 4316,
+      "country": "Norway",
+      "id": "14"
+    },
+    {
+      "name": "Palatine",
+      "population": 82067,
+      "country": "Monaco",
+      "id": "15"
+    },
+    {
+      "name": "Bristol",
+      "population": 4469,
+      "country": "Iceland",
+      "id": "16"
+    },
+    {
+      "name": "El Cajon",
+      "population": 67696,
+      "country": "Uruguay",
+      "id": "17"
+    },
+    {
+      "name": "Euless",
+      "population": 37222,
+      "country": "Poland",
+      "id": "18"
+    },
+    {
+      "name": "Chino",
+      "population": 73375,
+      "country": "Israel",
+      "id": "19"
+    },
+    {
+      "name": "San Francisco",
+      "population": 66512,
+      "country": "Netherlands Antilles",
+      "id": "20"
+    },
+    {
+      "name": "Chula Vista",
+      "population": 44466,
+      "country": "Bulgaria",
+      "id": "21"
+    },
+    {
+      "name": "Carson City",
+      "population": 36417,
+      "country": "Panama",
+      "id": "22"
+    },
+    {
+      "name": "Fall River",
+      "population": 96184,
+      "country": "Nigeria",
+      "id": "23"
+    },
+    {
+      "name": "Reading",
+      "population": 6641,
+      "country": "Yemen",
+      "id": "24"
+    },
+    {
+      "name": "Jonesboro",
+      "population": 84003,
+      "country": "Antarctica (the territory South of 60 deg S)",
+      "id": "25"
+    },
+    {
+      "name": "Roswell",
+      "population": 5625,
+      "country": "Norfolk Island",
+      "id": "26"
+    },
+    {
+      "name": "Oak Lawn",
+      "population": 14021,
+      "country": "Italy",
+      "id": "27"
+    },
+    {
+      "name": "University",
+      "population": 45745,
+      "country": "Slovenia",
+      "id": "28"
+    },
+    {
+      "name": "Springfield",
+      "population": 51699,
+      "country": "Vanuatu",
+      "id": "29"
+    },
+    {
+      "name": "Vineland",
+      "population": 33700,
+      "country": "Tanzania",
+      "id": "30"
+    },
+    {
+      "name": "San Jose",
+      "population": 97491,
+      "country": "Nigeria",
+      "id": "31"
+    },
+    {
+      "name": "Lodi",
+      "population": 96433,
+      "country": "Tokelau",
+      "id": "32"
+    },
+    {
+      "name": "Decatur",
+      "population": 88887,
+      "country": "Israel",
+      "id": "33"
+    },
+    {
+      "name": "Palm Springs",
+      "population": 54064,
+      "country": "Bulgaria",
+      "id": "34"
+    },
+    {
+      "name": "Durham",
+      "population": 11732,
+      "country": "Antarctica (the territory South of 60 deg S)",
+      "id": "35"
+    },
+    {
+      "name": "Pharr",
+      "population": 71942,
+      "country": "Democratic People's Republic of Korea",
+      "id": "36"
+    },
+    {
+      "name": "Midwest City",
+      "population": 29123,
+      "country": "Fiji",
+      "id": "37"
+    },
+    {
+      "name": "Anaheim",
+      "population": 60833,
+      "country": "Vanuatu",
+      "id": "38"
+    },
+    {
+      "name": "Apex",
+      "population": 67443,
+      "country": "Eritrea",
+      "id": "39"
+    },
+    {
+      "name": "Lawrence",
+      "population": 28565,
+      "country": "Lithuania",
+      "id": "40"
+    },
+    {
+      "name": "Marysville",
+      "population": 71418,
+      "country": "Croatia",
+      "id": "41"
+    },
+    {
+      "name": "Deltona",
+      "population": 54602,
+      "country": "Guinea-Bissau",
+      "id": "42"
+    },
+    {
+      "name": "Appleton",
+      "population": 85612,
+      "country": "Sudan",
+      "id": "43"
+    },
+    {
+      "name": "Pasadena",
+      "population": 10482,
+      "country": "Germany",
+      "id": "44"
+    },
+    {
+      "name": "San Luis Obispo",
+      "population": 84636,
+      "country": "Mozambique",
+      "id": "45"
+    },
+    {
+      "name": "Corvallis",
+      "population": 71974,
+      "country": "Norway",
+      "id": "46"
+    },
+    {
+      "name": "Bellingham",
+      "population": 94874,
+      "country": "Guatemala",
+      "id": "47"
+    },
+    {
+      "name": "Cuyahoga Falls",
+      "population": 10042,
+      "country": "Macao",
+      "id": "48"
+    },
+    {
+      "name": "Sunrise Manor",
+      "population": 18409,
+      "country": "Djibouti",
+      "id": "49"
+    },
+    {
+      "name": "Bakersfield",
+      "population": 3127,
+      "country": "Nicaragua",
+      "id": "50"
+    }
+  ],
+  "restaurants": [
+    {
+      "id": 1,
+      "name": "leon grill",
+      "location": {
+        "address": "pune"
+      }
+    },
+    {
+      "id": 2,
+      "name": "McDonals",
+      "location": {
+        "address": "bangalore"
+      }
+    }
+  ],
+  "books": [
+    {
+      "id": 1,
+      "title": "Chemistry for Beginners (Classic Reprint)",
+      "binding": "Paperback",
+      "language": "English",
+      "number_Of_Pages": null,
+      "author": "Wm Symington Brown",
+      "publisher": "Forgotten Books",
+      "isbn-10": "1334519625",
+      "isbn-13": "9781334519628",
+      "dimension": "15.19*0.74*22.91",
+      "description": "Excerpt from Chemistry for Beginners 1. Ema relates to the composition of any physical body, belongs to chemistry. For example, the rust which collects on ron exposed to air and moisture is composed of Iron and a gas called Oxygen. Soda water and cham pagne wine owe their spar mg appearance to the pre sence of Carbonic Acid gas. It is Chemistry which makes us ac unluted with these facts. About the Publisher Forgotten Books publishes hundreds of thousands of rare and classic Books. Find more at www.forgottenBooks.com This book is a reproduction of an important Historical work. Forgotten Books uses state-of-the-art Technology to digitally reconstruct the work, preserving the original format whilst repairing imperfections present in the aged copy. In rare cases, an imperfection in the original, such as a blemish or missing page, may be replicated in our edition. We do, however, repair the vast majority of imperfections successfully; any imperfections that remain are intentionally left to preserve the state of such Historical works.",
+      "store": "Amazon, Paperback",
+      "price": 599.0,
+      "count": 52,
+      "avatar": "https://images-eu.ssl-images-amazon.com/images/I/512NULft5bL.jpg"
+    },
+    {
+      "id": 2,
+      "title": "To See Paris and Die – The Soviet Lives of Western Culture",
+      "binding": "Hardcover",
+      "language": "English",
+      "number_Of_Pages": 480,
+      "author": "Eleonory Gilburd",
+      "publisher": "Harvard University Press",
+      "isbn-10": "0674980719",
+      "isbn-13": "9780674980716",
+      "dimension": "15.19*0.74*22.91",
+      "description": "The Soviet Union was a notoriously closed Society until Stalin's Death in 1953. Then, in the mid-1950s, a torrent of Western novels, films, and Paintings invaded Soviet streets and homes, acquiring heightened emotional significance. To See Paris and Die is a History of this momentous opening to the West. At the heart of this History is a process of translation, in which Western Figures took on Soviet roles: Pablo Picasso as a political rabble-rouser; Rockwell Kent as a quintessential American painter; Erich Maria Remarque and Ernest Hemingway as teachers of love and courage under fire; J. D. Salinger and Giuseppe De Santis as saviors from Soviet cliches. Imported novels challenged fundamental tenets of Soviet ethics, while modernist Paintings tested deep-seated notions of culture. Western films were eroticized even before viewers took their seats. The Drama of cultural exchange and translation encompassed discovery as well as loss. Eleonory Gilburd explores the pleasure, longing, humiliation, and anger that Soviet citizens Felt as they found themselves in the midst of this cross-cultural encounter. The main protagonists of To See Paris and Die are small-town teachers daydreaming of faraway places, college students vicariously discovering a wider world, and factory engineers striving for self-improvement. They invested Western imports with political and Personal significance, transforming foreign texts into intimate belongings. With the end of the Soviet Union, the Soviet West disappeared from the cultural map. Gilburd's History reveals how domesticated Western imports defined the last three decades of the Soviet Union, as well as its Death and afterlife.",
+      "store": "Amazon, Hardcover",
+      "price": 769.23,
+      "count": 60,
+      "avatar": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQNtIvmYjqyCdzC9OoCtlvEZC2hNTj5FxDa1_6G9xf676vn0xCMYFjNzWR4"
+    },
+    {
+      "id": 3,
+      "title": "The Strange Disappearance of a Bollywood Star (Baby Ganesh Agency)",
+      "binding": "Paperback",
+      "language": "English",
+      "number_Of_Pages": 384,
+      "author": "Vaseem Khan",
+      "publisher": "Mulholland Books",
+      "isbn-10": "1473612365",
+      "isbn-13": "9781473612365",
+      "dimension": "19.89*2.39*20.29",
+      "description": "The enchanting new Baby Ganesh Agency novel sees Inspector Chopra and his elephant sidekick investigating the dark side of Bollywood. Mumbai thrives on extravagant spectacles and larger-than-life characters. But even in the city of dreams, there is no guarantee of a happy ending. Rising star and incorrigible playboy Vikram Verma has disappeared, leaving his latest film in jeopardy. Hired by Verma's formidable mother to find him, Inspector Chopra and his sidekick, Baby elephant Ganesha, embark on a journey deep into the world's most flamboyant movie industry. As they uncover feuding stars, failed investments and Death threats, it seems that many People have a motive for wanting Verma out of the picture. and yet, as Chopra has long suspected, in Bollywood the truth is often stranger than fiction.",
+      "store": "Amazon, Paperback",
+      "price": 189.0,
+      "count": 100,
+      "avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSaYEvtVp2IuR8_UDjNbGBeMwcbdZBEEwrKvcex6RuQI5hZG-t1eCuWjrs"
+    },
+    {
+      "id": 4,
+      "title": "Taqdir ka Tohfa",
+      "binding": "Paperback",
+      "language": "Hindi",
+      "number_Of_Pages": 240,
+      "author": "Surender Mohan Pathak",
+      "publisher": "Bookemist (An Imprint of Sooraj Pocket Books)",
+      "isbn-10": "938809431X",
+      "isbn-13": "9789388094313",
+      "dimension": "",
+      "description": "सुरेन्द्र मोहन पाठक अपराध कथा साहित्य की दुनिया के सबसे लोकप्रिय लेखकों में से एक हैं । इन्होंने 1950 के दशक के अंत में अपने लेखन की शुरुआत की और जासूसी-अपराध कथाओं में लगातार ऐसे कीर्तिमान खड़े किए जिसकी बराबरी करना नामुमकिन है। 300 से ज्यादा उपन्यास लिख चुके हैं - जिनमें सुनील सीरीज़, विमल सीरीज़ और सुधीर कोहली सीरीज़ ने सबसे ज्यादा चर्चा हासिल की । तक़दीर का तोहफ़ा सुरेन्द्र मोहन पाठक की चुनिंदा रहस्य कथाओं का सचित्र संग्रह है । इसमें उनकी सर्वश्रेष्ठ दस कहानियाँ शामिल हैं : तक़दीर का तोहफ़ा टीपू सुलतान की डायरी बीवी का चश्मा मौत की घड़ी शतरंज के मोहरे शिकारी का शिकार रेलवे क्रॉसिंग मीनार वाली हवेली विशालगढ़ एक्सप्रैस भूत बसेरा (सुनील)",
+      "price": 144.0,
+      "count": 114,
+      "avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDRVYqqSRD0IWIWT4TUOfBEmKEbGN7HDuG-nv9zZ6ijUhd1YWY2bJ0OJBc"
+    },
+    {
+      "id": 5,
+      "title": "Reeds Vol 3: Applied Thermodynamics for Marine Engineers (Reeds Marine Engineering and Technology Series)",
+      "binding": "Paperback",
+      "language": "English",
+      "number_Of_Pages": 448,
+      "author": "William Embleton",
+      "publisher": "Reeds",
+      "isbn-10": "1472969049",
+      "isbn-13": "9781472969040",
+      "dimension": "16.08*2.49*23.75",
+      "description": "This book covers the principal topics in thermodynamics for officer cadets studying Merchant Navy Marine Engineering Certificates of Competency (CoC) as well as the core syllabi in thermodynamics for undergraduate students in marine Engineering, naval Architecture and other marine technology related programmes.This new edition will cover the laws of thermodynamics and of perfect gases, their principles and application in a marine environment.This key textbook takes into account the varying needs of marine students, recognising recent changes to the Merchant Navy syllabus and current pathways to a sea-going Engineering career, including National Diplomas, Higher National Diploma and degree courses.",
+      "store": "Amazon, Paperback",
+      "price": 1519.0,
+      "count": 40,
+      "avatar": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSt25mAAYLVtOHSOLnj6u35p1VJFfdd_zf3rUqplOkHxIXA3nnpCw2KRlwU"
+    },
+    {
+      "id": 6,
+      "title": "Kissinger the Negotiator: Lessons from Dealmaking at the Highest Level",
+      "binding": "Hardcover",
+      "language": "English",
+      "number_Of_Pages": 448,
+      "author": "James K Sebenius",
+      "publisher": "Harper",
+      "isbn-10": "0062694170",
+      "isbn-13": "9780062694171",
+      "dimension": "15.24*3.48*22.86",
+      "description": "Foreword by Henry KissingerIn this groundbreaking, definitive guide to the art of negotiation, three Harvard professors—all experienced negotiators—offer a comprehensive examination of one of the most successful dealmakers of all time.Politicians, world leaders, and Business executives around the world—including every President from John F. Kennedy to Donald J. Trump—have sought the counsel of Henry Kissinger, a brilliant diplomat and historian whose unprecedented achievements as a negotiator have been universally acknowledged. Now, for the first time, Kissinger the Negotiator provides a clear analysis of Kissinger’s overall approach to making deals and resolving conflicts—expertise that holds powerful and enduring lessons.James K. Sebenius (Harvard Business School), R. Nicholas Burns (Harvard Kennedy School of Government), and Robert H. Mnookin (Harvard Law School) crystallize the key elements of Kissinger’s approach, based on in-depth interviews with the former secretary of state himself about some of his most difficult negotiations, an extensive study of his record, and many independent sources. Taut and instructive, Kissinger the Negotiator mines the long and fruitful career of this elder statesman and shows how his strategies apply not only to Contemporary diplomatic challenges but also to other realms of negotiation, including business, public policy, and Law. Essential reading for current and Future leaders, Kissinger the Negotiator is an invaluable guide to reaching agreements in challenging situations.",
+      "store": "Amazon, Hardcover",
+      "price": 1267.0,
+      "count": 68,
+      "avatar": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcS9RTA4eajAFFoRFafLjJAg7OqHud_wW6LEppJRDK0xQmEfMi4ZDlWwwzU"
+    },
+    {
+      "id": 7,
+      "title": "No Limits: The Art and Science of High Performance",
+      "binding": "Paperback",
+      "language": "English",
+      "number_Of_Pages": 382,
+      "author": "Mukesh Bansal",
+      "publisher": "Westland",
+      "isbn-10": "9389152232",
+      "isbn-13": "9789389152234",
+      "dimension": "14.0*2.44*21.59",
+      "description": "Tech entrepreneur Mukesh Bansal has been a lifelong student of human performance optimisation. He has studied the science behind it, and worked closely with high performers across business, Sports and entertainment, to understand what it takes to transcend apparent limitations and achieve true potential.Through his entrepreneurial experience and studying the field of health and fitness, Bansal came to understand the enormous power of plasticity: the ability of the human brain to rewire itself at will as we develop new skills. He also realised that high performers across domains rely on common tools that were embraced by ancient wisdom and are validated by modern science. Knowing that high performance is not a matter of Genetics or luck is highly empowering. No Limits distils Bansal’s findings on talent, deliberate practice, mindset, habit, willpower and learning. It is a guide to maximising one’s potential with well-defined strategies. So, no matter what you do, you can be a superior version of yourself, performing at increasingly better levels, constantly reaching higher.",
+      "price": 359.0,
+      "count": 146,
+      "avatar": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSD5xCXCNEv7LQ25B-OnDD-DRI5hxy0yyK3ss-cZyFa38ECYC2ZkyTZpsY"
+    },
+    {
+      "id": 8,
+      "title": "Tech Smart: The Perfect Storm",
+      "binding": "Paperback",
+      "language": "English",
+      "number_Of_Pages": 220,
+      "author": "John R Connelly",
+      "publisher": "Archway Publishing",
+      "isbn-10": "1480885347",
+      "isbn-13": "9781480885349",
+      "dimension": "15.24*1.27*22.86",
+      "description": "If you want to make money in the stock market, all the information in the world will not help unless you do some research, devise a game plan, and stay focused. John Connelly shares formulas that can help you determine the trend - bullish or bearish - of an index or security in this trading guide. His system will help you take advantage of price momentum and limit exposure when momentum moves against you. By using the strategies in this guide, you'll be able to: - identify sector leaders that will likely outperform the S&P 500 index; - find free tools and technical Indicators to use in your research; - remove emotional aspects of investing that reduce returns. The book tracks five major markets and fifty-five different indexes around the world by region and country. It also highlights how options, calls, and puts can maximize your chance to make money while minimizing risk. By focusing on when an index or security changes direction and confirming the change has occurred, you can capture the majority of moves. Find out how to do it step by step and start walking down a path that leads to stock market riches.",
+      "price": 992.0,
+      "count": 145,
+      "avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAb-eRoByDGLRBFAvl7qfN9c8hPKO_wPcFlFBwaP3t_NmY6GGkT9a-RptL"
+    },
+    {
+      "id": 9,
+      "title": "Iady-Era",
+      "binding": "Paperback",
+      "language": "Dutch",
+      "number_Of_Pages": 36,
+      "author": "Wahab Sheriff",
+      "publisher": "Independently Published",
+      "isbn-10": "1793154244",
+      "isbn-13": "9781793154248",
+      "dimension": "12.7*0.23*20.32",
+      "description": "Niet-exclusief vrouwelijk Viagra-overzicht Het gebruik van Sildenafil Citraat (een functionerend segment in Lady Era-pillen) voor mannelijke seksuele gebrokenheid duurt nog erg lang. In ieder geval heeft de toepassing ervan bij vrouwen in deze tijd een kolossale vraag gehad. De laatste tijd heeft de farmaceutische markt veel generieke Sildenafil-generieke geneesmiddelen ingebracht voor damesgebruik. Hoe het functioneert? Het onderdeel van het werk van vrouwelijke niet-exclusieve Viagra is als zijn activiteit bij mannen. Het onderscheid in fysiologie tussen mensen heeft echter invloed op de effecten van de remedie op beide geslachten. De Viagra-tablet komt in de maag en desintegreert en bereikt binnen 30-uur het hoogtepunt van zijn levensvatbaarheid. Sildenafil zorgt voor het afwikkelen van de aderen die de bekkenorganen aansporen. Daarom vertoont de stroom bloed naar het territorium tekenen van verbetering waardoor vrouwelijke geslachtsorganen steeds kwetsbaarder worden voor ophitsing. Evenzo dient de opname van conventionele Viagra-pillen om: - Verbeter de olie van de vrouwelijke persoonlijke zones; - Verminder kwellende sensaties en ongemak te midden van seks; - Bereik de piek sneller; - Enkele hoogtepunten binnen één geslacht; - Vergroot seksueel verlangen. Het is algemeen gebruik In tegenstelling tot mannen, die Viagra-pillen nemen om een erectie te krijgen, gebruiken vrouwen de oplossing om hun verlangen naar geslachtsgemeenschap te vergroten en hun privézones steeds ontvankelijker voor opwinding te maken. Bovendien worden niet-exclusieve Viagra-pillen regelmatig gebruikt door vrouwen die een kind hebben voortgebracht of die in de richting van de menopauze komen. Beide klassen vrouwelijke patiënten kunnen problemen hebben die verband houden met vaginale droogheid. Het ontbreken van olie veroorzaakt echt ongemak of zelfs pijn tussen de geslachtsgemeenschap. Beheersing van niet-exclusieve Sildenafil kan de omstandigheid verbeteren, aangezien deze regeling zijn levensvatbaarheid heeft aangetoond bij de verbetering van de zalfolie. Voortaan kunnen dames zich enorm verbeterd voelen tijdens het gebruik van de medicatie. Veranderingen in de fysieke indruk van seks leiden tot enthousiaste mensen. Op het moment dat de dames de procedure waarderen, wordt hun drang hoger omdat seksuele betrekkingen nooit meer verbonden zijn met angst of leed. Onvoorstelbare bijwerkingen Sildenafil Citraat zou de reden kunnen zijn voor een aantal lichte tot directe antagonistische reacties. Ernstige symptomen zijn in hoge mate ongewoon en beïnvloeden over het algemeen de personen die bepaalde contra-indicaties hebben voor Viagra. Om het licht en de meeste hebben af en toe aangekondigde negatieve reacties op de genezing een plaats: - Hoofdpijn; - Verstopping van de neus; - Diarree; - Vermoeidheid; - Doorspoelen van het gezicht. Deze zijn allemaal kort en verdwijnen binnen twee of drie uur nadat de activiteit van het medicijn is ingepakt. Niettegenstaande, in het geval dat u geïrriteerd bent door de duur van de bijwerkingen of deze verslechteren, moet u uw leverancier van menselijke diensten ter discussie stellen.",
+      "price": 695.0,
+      "count": 73,
+      "avatar": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQa8eVOaVErl37CefiIq45hrJUmvwSRWb_x2AbyFT1znOmBWJskGgJAynpJ"
+    },
+    {
+      "id": 10,
+      "title": "Viagra: A Guide to Powerful and Long Lasting Erection",
+      "binding": "Paperback",
+      "language": "English",
+      "number_Of_Pages": 60,
+      "author": "Libido Booster",
+      "publisher": "Original Life-Saver Publisher",
+      "isbn-10": "1950171442",
+      "isbn-13": "9781950171446",
+      "dimension": "14.0*0.3*21.59",
+      "description": "Key takeawaysViagra starts working around 30-a hour after it's taken and props up around 5 hours For most Men Viagra starts to wear off 2-3 hours after you first take it Everything considered, erections last around 33 minutes if Viagra was taken a hour back If in the wake of taking Viagra you have an erection continuing long than 4 hours that won't leave (priapism), by then endeavor to get settling help as standard as Time licenses Whatever degree does Viagra last?The timespan Viagra continues for will change from individual to individual; paying little notice to it can Work for up to 5 huge bits of time. This doesn't mean you will have an erection for 5 hours, it proposes you will more than likely get them less requesting in the midst of this time",
+      "price": 1925.0,
+      "count": 128,
+      "avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbDT6mPXlILOU98wUE_2LJEhuPTsV-aHzuInTHlxv8Jc17pdhujqC2_wk"
+    },
+    {
+      "id": 11,
+      "title": "Fire and Fury",
+      "binding": "Hardcover",
+      "language": "English",
+      "number_Of_Pages": 336,
+      "author": "Michael Wolff",
+      "publisher": "Little, Brown",
+      "isbn-10": "1408711400",
+      "isbn-13": "9781408711408",
+      "dimension": "24.41*3.1*16.41",
+      "description": "With extraordinary access to the Trump White House, Michael Wolff tells the inside story of the most controversial presidency of our time.The first nine months of Donald Trump's term were stormy, outrageous - and absolutely mesmerising. Now, thanks to his deep access to the West Wing, bestselling author Michael Wolff tells the riveting story of how Trump launched a tenure as volatile and fiery as the man himself.In this explosive book, Wolff provides a wealth of new details about the chaos in the Oval Office. Among the revelations: - What President Trump's staff really thinks of him- What inspired Trump to claim he was wire-tapped by President Obama - Why FBI director James Comey was really fired- Why chief strategist Steve Bannon and Trump's son-in-law Jared Kushner couldn't be in the same room - Who is really directing the Trump administration's strategy in the wake of Bannon's firing- What the secret to communicating with Trump is- What the Trump Administration has in common with the movie The ProducersNever before has a presidency so divided the American people. Brilliantly reported and astoundingly fresh, Michael Wolff's Fire and Fury shows us how and why Donald Trump has become the king of discord and disunion.",
+      "price": 1313.0,
+      "count": 61,
+      "avatar": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTz2nbtRgpaczM6k6Dt5Ki-oz6NaJNxbGH1liUerQxjQXJ1cL64DGbYlNk"
+    },
+    {
+      "id": 12,
+      "title": "Jammu and Kashmir 1949-1964",
+      "binding": "Paperback",
+      "language": "English",
+      "number_Of_Pages": 388,
+      "author": "Karan Singh",
+      "publisher": "Penguin",
+      "isbn-10": "0143450514",
+      "isbn-13": "9780143450511",
+      "dimension": "",
+      "description": "In 1949, Dr Karan Singh had just turned eighteen when he was appointed regent of Jammu and Kashmir, two years after his father, Maharaja Hari Singh, signed the Instrument of Accession merging the then independent state with India. Under the mentorship of Pandit Jawaharlal Nehru, Dr Singh was at the helm of affairs in the state for eighteen years, successively as regent, Sadar-i-Riyasat and governor.This carefully conceived selection of over 200 letters exchanged between Dr Singh and Pandit Nehru sheds light on significant issues and events, including the teething problems of a fledgling country and a newly grafted state, the emerging conflicts between Pakistan and India, and the Chinese aggression of 1962. In addition to valuable insights into the political situation of the period, these letters also provide rare glimpses into the personal lives and thoughts of Pandit Nehru and Dr Singh. The memorandum submitted by Maharaja Hari Singh to President Rajendra Prasad in August 1952 is published in full, revealing how the identity and future of Kashmir were shaped.A rare collection, Jammu and Kashmir offers an unmatched ringside view of the momentous events in Kashmir and the rest of India after Independence.",
+      "price": 334.0,
+      "count": 151,
+      "avatar": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcS7bg1ur0lAmnNi41FhWO5oihK3RpT0wLpt8Q6vJIEnVCNUoLXKYGcVil5o"
+    },
+    {
+      "id": 13,
+      "title": "John Law: A Scottish Adventurer of the Eighteenth Century",
+      "binding": "Paperback , Hardcover",
+      "language": "English",
+      "number_Of_Pages": 528,
+      "author": "James Buchan",
+      "publisher": "Quercus Publishing",
+      "isbn-10": "184866608X",
+      "isbn-13": "9781848666085",
+      "dimension": "12.7*3.18*19.69",
+      "description": "At the summit of his power, John Law was the most famous man in Europe. Born in Scotland in 1671, he was convicted of murder in London and, after his escape from prison, fled Scotland for the mainland when Union with England brought with it a warrant for his arrest. On the continent he lurched from one money-making scheme to the next - selling insurance against losing lottery tickets in Holland, advising the Duke of Savoy - amassing a fortune of some £80,000.But for his next trick he had grander ambitions. When Louis XIV died, leaving a thoroughly bankrupt France to his five-year-old heir, Law gained the ear of the Regent, Philippe D'Orleans. In the years that followed, Law's financial wizardry transformed the fortunes of France, enriching speculators and investors across the continent, and he was made Controller-General of Finances, effectively becoming the French Prime Minister. But the fall from grace that was to follow was every bit as spectacular as his meteoric rise.John Law, by a biographer of Adam Smith and the author of Frozen Desire and Capital of the Mind, dramatises the life of one of the most inventive financiers in history, a man who was born before his time and in whose day the word millionaire came to be coined.",
+      "price": 1089.0,
+      "count": 142,
+      "avatar": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRwJO4DXs57A6zfzSSbYwkKl7G8gJDWJd68WP0aYXGtMcDmOzPuJb0sFOo"
+    },
+    {
+      "id": 14,
+      "title": "One Day at Disney: Meet the People Who Make the Magic Across the Globe (Disney Editions Deluxe)",
+      "binding": "Hardcover",
+      "language": "English",
+      "number_Of_Pages": 224,
+      "author": "Bruce Steele",
+      "publisher": "Disney Editions",
+      "isbn-10": "136805224X",
+      "isbn-13": "9781368052245",
+      "dimension": "29.21*3.05*31.5",
+      "description": "Discover what it's like to report to work every day for The Walt Disney Company. Step behind the scenes to immerse yourself in one 'ordinary' day at Disney. In addition to the book, the Disney+ team was on hand to capture stories along the way. A full-length documentary and 52 short-form episodes expand the profiles and delve deeper into the essence of what it's like to be a Disney cast member. On a Thursday in 2019, a small army of photographers and videographers scattered across the globe to capture what goes on beyond those tantalizing 'Cast Members Only' doors - whether eavesdropping on historic endeavors or typical tasks. All the photos in this book were taken on that single Thursday, beginning early in Tokyo and following the sun around the world through Shanghai, Hong Kong, Paris, Madrid, the Bahamas, Costa Rica, and dozens of places throughout the United States. More than 40 hours after it began, the day ended as the sun set on the Aulani resort in Hawaii. On that day, some 80 Cast Members agreed to open up their workshops, dressing rooms, kitchens, cubicles, TV studios, labs, locomotive engines - and some even more surprising and diverse work spaces. They also shared their stories: childhood dreams and chapters, career pivots and triumphs, workaday hurdles and joys. It was just a day in the life, as extraordinary as any other day at Disney. As any Cast Member can tell you, a Disney job is less a destination than a limitless journey. And for just One Day at Disney, we can all tag along for the ride.",
+      "price": 2901.0,
+      "count": 42,
+      "avatar": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTCNpPeklYAJMBN50d76WUriRaT_tf8uVlzumgGkpNNl9WHbpgqND1KR0lx"
+    },
+    {
+      "id": 15,
+      "title": "Lunch with the FT",
+      "binding": "Amazon, Hardcover",
+      "language": "English",
+      "number_Of_Pages": 384,
+      "author": "Lionel Barber",
+      "publisher": "Portfolio Penguin",
+      "isbn-10": "0241400686",
+      "isbn-13": "9780241400685",
+      "dimension": "15.24*3.3*23.34",
+      "description": "Lunch with the financial times has been a permanent fixture in the financial times for almost 25 years, featuring presidents, film stars, musical icons and business leaders from around the world. The column is now as well-established institution which has reinvigorated the art of conversation in the convivial, intimate Environment of a long boozy lunch. On its 25th anniversary, lunch with the financial times: a second helping will showcase the most entertaining, incisive and fascinating interviews from the past five years Including those with Donald Trump, Sheryl Sandberg, Richard Branson, Chimamanda Ngozi Adichie, Nigel far age, Eric cantona and Zoella, illustrated in full colour with James Ferguson's famous portraits.",
+      "price": 870.0,
+      "count": 67,
+      "avatar": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRgnuAroOhI-YD_zjYCnG74D47OnM3mUlWzKI7VLscJ1RFHavISfDGoLd8"
+    },
+    {
+      "id": 16,
+      "title": "MCQ Bank for CA Final Group II",
+      "binding": "Paperback",
+      "language": "English",
+      "number_Of_Pages": null,
+      "author": "Padhuka",
+      "publisher": "Wolters Kluwer India PVt. LTd.",
+      "isbn-10": "9389335671",
+      "isbn-13": "9789389335675",
+      "dimension": "14.0*0.3*21.59",
+      "description": "Single handy volume for group II subjects. Full coverage of CA Final syllabus applicable for exam. Lucid MCQs for quick understanding and revision of concepts. Br>chapter wise presentation of MCQs with Answers. Knowledge based and application based MCQs. Complete guide to practice before exams.",
+      "price": 428.0,
+      "count": 55,
+      "avatar": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRhrSmOC8LCjhpBfWmqMDv-GbQ-aPVDlyJfGmL1Wlk4vBM9GNPEP_g8mJYM"
+    },
+    {
+      "id": 17,
+      "title": "Audit Saar - Complete Revision of Audit in Just 200 Pages For CA Final (Applicable for May 2020 onwards)",
+      "binding": "Paperback",
+      "language": "English",
+      "number_Of_Pages": 210,
+      "author": "CA Khushboo Sanghavi",
+      "publisher": "Invincible Publishers",
+      "isbn-10": "9389600324",
+      "isbn-13": "9789389600322",
+      "dimension": "13.0*2.01*21.01",
+      "description": "Book your copy of 'Audit सार - Super Summary Handwritten Book' By CA Khushboo Sanghavi Features: - 1) Super Crux of massive syllabus. 2) Covering all Amendments upto 30th October 2019.3) Including Reference to Past Exam Questions and RTPs.4) Author's Note for cross Reference and Conceptual Clarity.5) list of Important and expected question",
+      "price": 399.0,
+      "count": 142,
+      "avatar": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcT18XZ3Uq7vyuJmhmnRQuivYwuk7qhq-nm0LmWYIqud7_HQoow-dUvqPEA"
+    },
+    {
+      "id": 18,
+      "title": "Complete Biology for NEET",
+      "binding": "Paperback",
+      "language": "English",
+      "number_Of_Pages": 1424,
+      "author": "Satwant Singh Bhatia",
+      "publisher": "McGraw Hill Education",
+      "isbn-10": "9387572331",
+      "isbn-13": "9789387572331",
+      "dimension": "Complete Biology is aimed at aspirants appearing in NEET and other medical college entrance examinations. It Covers the latest syllabi of these examinations and is broadly based on the NCERT curriculum. The book offers comprehensive Theory and a plethora of questions, carefully selected for meaningful practice and to test one’s understanding of the concepts.Key Features:1. Comprehensive coverage of the syllabus2. Text supplemented by diagrams and tables3. Each chapter begins with an “Introduction” providing a background of the topic4. The section ‘You Need to Know’ in each chapter presents the must know facts5. ‘Multiple Choice Questions’ and ‘Selected Questions’ from past years’ papers have been included in each chapter6. “Target Medical Entrance Examinations” section contains questions similar to the ones appearing in the actual examination7. Answer Key for all MCQs and “Hints” for selected questions are given.",
+      "description": "",
+      "price": 557.0,
+      "count": 57,
+      "avatar": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQBTv7-kwS0Jty_J9SZ9Cd6CpmrGxcGFppZ4OFRIT_vcsOAp_8VLisvv10"
+    },
+    {
+      "id": 19,
+      "title": "Oncology MCQs for NEET-SS (medical oncology and surgical oncology): For NEET-SS, board review and other entrance exams Volume: 2",
+      "binding": "Paperback",
+      "language": "English",
+      "number_Of_Pages": 168,
+      "author": "Dr Bhratri Bhushan",
+      "publisher": "Independently Published",
+      "isbn-10": "1660711177",
+      "isbn-13": "97816607111786",
+      "dimension": "15.24*1.09*22.86",
+      "description": "Volume 1 available at: https: //www.amazon.in/dp/B08371FV41 (e-book)https: //www.amazon.in/dp/1651694524 (paperback)MCQs on cancer staging for NEET-SS is available at: https: //www.amazon.in/dp/B0846RY856When I was preparing for DM entrance, I experienced a dearth of Books on the subject of Oncology and the Books that were available were either not updated or were lacking in depth, that was when I conceived the idea of writing such a book myself.I have written this book purely from the perspective of an oncologist and by relying on the highest quality material, most importantly the Bible of Oncology: DeVita, Hellman, and Rosenberg's Cancer Principles & Practice of Oncology 11th edition. The NCCN guidelines and high impact journals were also referenced as and when needed. The result is this book, which will serve the purpose of equipping the exam going (NEET-SS and board review, along with any other entrance exam where questions about Oncology are asked) doctors with the right tool to test and build their knowledge.As the knowledge in the field of Oncology is unfolding at an unprecedented scale and new strategies are being devised at a prolific pace, it is not possible to provide all of the updated information, all at once. I will be updating this book periodically for this purpose and I would implore readers to keep themselves updated by going through the quarterly updates of DeVita's Oncology that are included with the purchase of the 11th edition and also the NCCN guidelines.In case of any queries and suggestions regarding this book, kindly send to: bhratri@gmail.comDr. Bhratri Bhushan MBBS, MD (Internal medicine), DM (Medical Oncology) is a consultant medical oncologist and hematologist. He has published a number of Books on the subject of Oncology and his papers have been published in renowned journals of medical literature.",
+      "price": 846.0,
+      "count": 38,
+      "avatar": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRqxJ9uYUJrGoCWZAH4_7YfUERMe80NLRkyxok1p75sk64m0xCFZ_wLdj6v"
+    },
+    {
+      "id": 20,
+      "title": "Deep Learning with R_p1",
+      "binding": "Paperback",
+      "language": "English",
+      "number_Of_Pages": 335,
+      "author": "Mr Joseph J Allaire",
+      "publisher": "Manning Publications",
+      "isbn-10": "161729554X",
+      "isbn-13": "9781617295546",
+      "dimension": "18.42*1.91*23.5",
+      "description": "DescriptionArtificial intelligence has made some incredible leaps. Deep learning Systems now deliver near-human Speech and image recognition, not to mention machines capable of beating World champion Go masters. Deep learning applies to a widening range of problems, such as question answering, machine translation, and optical character recognition. It’s behind photo tagging, self-driving cars, virtual assistants and other previously impossible applications. Deep Learning with R is for developers and data scientists with some R experience who want to use deep learning to solve real-world problems. The book is structured around a series of practical examples that introduce each new concept and demonstrate best practices. You’ll begin by learning what deep learning is, how it connects with AI and Machine Learning, and why it’s rapidly gaining in importance right now. You’ll then dive into practical applications of computer vision, natural language processing, and more. Key features·   Understand key machine learning concepts·   Set up a computer Environment for deep learning·   Visualize neural networks·   Use recurrent neural networks for text and sequence Classification AudienceYou’ll need intermediate R Programming skills. No previous experience with machine learning or deep learning is required.About the technologyAlthough deep learning can be a challenging subject, new technologies make it much easier to get started than ever before. The Keras deep learning library featured in this book puts ease of use and accessibility front and center, making it a great fit for new practitioners.",
+      "price": 2783.0,
+      "count": 70,
+      "avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxKqI8NYVc08SCQAhSTVtoZ5g7gQ9gEhGvPG22zmt35Zdnu8bgQBYfsBQ"
+    },
+    {
+      "id": 1.1,
+      "title": "Chemistry for Beginners (Classic Reprint)",
+      "binding": "Paperback",
+      "language": "English",
+      "number_Of_Pages": null,
+      "author": "Wm Symington Brown",
+      "publisher": "Forgotten Books",
+      "isbn-10": "1334519625",
+      "isbn-13": "9781334519628",
+      "dimension": "15.19*0.74*22.91",
+      "description": "Excerpt from Chemistry for Beginners 1. Ema relates to the composition of any physical body, belongs to chemistry. For example, the rust which collects on ron exposed to air and moisture is composed of Iron and a gas called Oxygen. Soda water and cham pagne wine owe their spar mg appearance to the pre sence of Carbonic Acid gas. It is Chemistry which makes us ac unluted with these facts. About the Publisher Forgotten Books publishes hundreds of thousands of rare and classic Books. Find more at www.forgottenBooks.com This book is a reproduction of an important Historical work. Forgotten Books uses state-of-the-art Technology to digitally reconstruct the work, preserving the original format whilst repairing imperfections present in the aged copy. In rare cases, an imperfection in the original, such as a blemish or missing page, may be replicated in our edition. We do, however, repair the vast majority of imperfections successfully; any imperfections that remain are intentionally left to preserve the state of such Historical works.",
+      "store": "Amazon, Paperback",
+      "price": 599.0,
+      "count": 52,
+      "avatar": "https://images-eu.ssl-images-amazon.com/images/I/512NULft5bL.jpg"
+    },
+    {
+      "id": 2.1,
+      "title": "To See Paris and Die – The Soviet Lives of Western Culture",
+      "binding": "Hardcover",
+      "language": "English",
+      "number_Of_Pages": 480,
+      "author": "Eleonory Gilburd",
+      "publisher": "Harvard University Press",
+      "isbn-10": "0674980719",
+      "isbn-13": "9780674980716",
+      "dimension": "15.19*0.74*22.91",
+      "description": "The Soviet Union was a notoriously closed Society until Stalin's Death in 1953. Then, in the mid-1950s, a torrent of Western novels, films, and Paintings invaded Soviet streets and homes, acquiring heightened emotional significance. To See Paris and Die is a History of this momentous opening to the West. At the heart of this History is a process of translation, in which Western Figures took on Soviet roles: Pablo Picasso as a political rabble-rouser; Rockwell Kent as a quintessential American painter; Erich Maria Remarque and Ernest Hemingway as teachers of love and courage under fire; J. D. Salinger and Giuseppe De Santis as saviors from Soviet cliches. Imported novels challenged fundamental tenets of Soviet ethics, while modernist Paintings tested deep-seated notions of culture. Western films were eroticized even before viewers took their seats. The Drama of cultural exchange and translation encompassed discovery as well as loss. Eleonory Gilburd explores the pleasure, longing, humiliation, and anger that Soviet citizens Felt as they found themselves in the midst of this cross-cultural encounter. The main protagonists of To See Paris and Die are small-town teachers daydreaming of faraway places, college students vicariously discovering a wider world, and factory engineers striving for self-improvement. They invested Western imports with political and Personal significance, transforming foreign texts into intimate belongings. With the end of the Soviet Union, the Soviet West disappeared from the cultural map. Gilburd's History reveals how domesticated Western imports defined the last three decades of the Soviet Union, as well as its Death and afterlife.",
+      "store": "Amazon, Hardcover",
+      "price": 769.23,
+      "count": 60,
+      "avatar": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQNtIvmYjqyCdzC9OoCtlvEZC2hNTj5FxDa1_6G9xf676vn0xCMYFjNzWR4"
+    },
+    {
+      "id": 3.1,
+      "title": "The Strange Disappearance of a Bollywood Star (Baby Ganesh Agency)",
+      "binding": "Paperback",
+      "language": "English",
+      "number_Of_Pages": 384,
+      "author": "Vaseem Khan",
+      "publisher": "Mulholland Books",
+      "isbn-10": "1473612365",
+      "isbn-13": "9781473612365",
+      "dimension": "19.89*2.39*20.29",
+      "description": "The enchanting new Baby Ganesh Agency novel sees Inspector Chopra and his elephant sidekick investigating the dark side of Bollywood. Mumbai thrives on extravagant spectacles and larger-than-life characters. But even in the city of dreams, there is no guarantee of a happy ending. Rising star and incorrigible playboy Vikram Verma has disappeared, leaving his latest film in jeopardy. Hired by Verma's formidable mother to find him, Inspector Chopra and his sidekick, Baby elephant Ganesha, embark on a journey deep into the world's most flamboyant movie industry. As they uncover feuding stars, failed investments and Death threats, it seems that many People have a motive for wanting Verma out of the picture. and yet, as Chopra has long suspected, in Bollywood the truth is often stranger than fiction.",
+      "store": "Amazon, Paperback",
+      "price": 189.0,
+      "count": 100,
+      "avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSaYEvtVp2IuR8_UDjNbGBeMwcbdZBEEwrKvcex6RuQI5hZG-t1eCuWjrs"
+    },
+    {
+      "id": 4.1,
+      "title": "Taqdir ka Tohfa",
+      "binding": "Paperback",
+      "language": "Hindi",
+      "number_Of_Pages": 240,
+      "author": "Surender Mohan Pathak",
+      "publisher": "Bookemist (An Imprint of Sooraj Pocket Books)",
+      "isbn-10": "938809431X",
+      "isbn-13": "9789388094313",
+      "dimension": "",
+      "description": "सुरेन्द्र मोहन पाठक अपराध कथा साहित्य की दुनिया के सबसे लोकप्रिय लेखकों में से एक हैं । इन्होंने 1950 के दशक के अंत में अपने लेखन की शुरुआत की और जासूसी-अपराध कथाओं में लगातार ऐसे कीर्तिमान खड़े किए जिसकी बराबरी करना नामुमकिन है। 300 से ज्यादा उपन्यास लिख चुके हैं - जिनमें सुनील सीरीज़, विमल सीरीज़ और सुधीर कोहली सीरीज़ ने सबसे ज्यादा चर्चा हासिल की । तक़दीर का तोहफ़ा सुरेन्द्र मोहन पाठक की चुनिंदा रहस्य कथाओं का सचित्र संग्रह है । इसमें उनकी सर्वश्रेष्ठ दस कहानियाँ शामिल हैं : तक़दीर का तोहफ़ा टीपू सुलतान की डायरी बीवी का चश्मा मौत की घड़ी शतरंज के मोहरे शिकारी का शिकार रेलवे क्रॉसिंग मीनार वाली हवेली विशालगढ़ एक्सप्रैस भूत बसेरा (सुनील)",
+      "price": 144.0,
+      "count": 114,
+      "avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDRVYqqSRD0IWIWT4TUOfBEmKEbGN7HDuG-nv9zZ6ijUhd1YWY2bJ0OJBc"
+    },
+    {
+      "id": 5.1,
+      "title": "Reeds Vol 3: Applied Thermodynamics for Marine Engineers (Reeds Marine Engineering and Technology Series)",
+      "binding": "Paperback",
+      "language": "English",
+      "number_Of_Pages": 448,
+      "author": "William Embleton",
+      "publisher": "Reeds",
+      "isbn-10": "1472969049",
+      "isbn-13": "9781472969040",
+      "dimension": "16.08*2.49*23.75",
+      "description": "This book covers the principal topics in thermodynamics for officer cadets studying Merchant Navy Marine Engineering Certificates of Competency (CoC) as well as the core syllabi in thermodynamics for undergraduate students in marine Engineering, naval Architecture and other marine technology related programmes.This new edition will cover the laws of thermodynamics and of perfect gases, their principles and application in a marine environment.This key textbook takes into account the varying needs of marine students, recognising recent changes to the Merchant Navy syllabus and current pathways to a sea-going Engineering career, including National Diplomas, Higher National Diploma and degree courses.",
+      "store": "Amazon, Paperback",
+      "price": 1519.0,
+      "count": 40,
+      "avatar": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSt25mAAYLVtOHSOLnj6u35p1VJFfdd_zf3rUqplOkHxIXA3nnpCw2KRlwU"
+    },
+    {
+      "id": 6.1,
+      "title": "Kissinger the Negotiator: Lessons from Dealmaking at the Highest Level",
+      "binding": "Hardcover",
+      "language": "English",
+      "number_Of_Pages": 448,
+      "author": "James K Sebenius",
+      "publisher": "Harper",
+      "isbn-10": "0062694170",
+      "isbn-13": "9780062694171",
+      "dimension": "15.24*3.48*22.86",
+      "description": "Foreword by Henry KissingerIn this groundbreaking, definitive guide to the art of negotiation, three Harvard professors—all experienced negotiators—offer a comprehensive examination of one of the most successful dealmakers of all time.Politicians, world leaders, and Business executives around the world—including every President from John F. Kennedy to Donald J. Trump—have sought the counsel of Henry Kissinger, a brilliant diplomat and historian whose unprecedented achievements as a negotiator have been universally acknowledged. Now, for the first time, Kissinger the Negotiator provides a clear analysis of Kissinger’s overall approach to making deals and resolving conflicts—expertise that holds powerful and enduring lessons.James K. Sebenius (Harvard Business School), R. Nicholas Burns (Harvard Kennedy School of Government), and Robert H. Mnookin (Harvard Law School) crystallize the key elements of Kissinger’s approach, based on in-depth interviews with the former secretary of state himself about some of his most difficult negotiations, an extensive study of his record, and many independent sources. Taut and instructive, Kissinger the Negotiator mines the long and fruitful career of this elder statesman and shows how his strategies apply not only to Contemporary diplomatic challenges but also to other realms of negotiation, including business, public policy, and Law. Essential reading for current and Future leaders, Kissinger the Negotiator is an invaluable guide to reaching agreements in challenging situations.",
+      "store": "Amazon, Hardcover",
+      "price": 1267.0,
+      "count": 68,
+      "avatar": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcS9RTA4eajAFFoRFafLjJAg7OqHud_wW6LEppJRDK0xQmEfMi4ZDlWwwzU"
+    },
+    {
+      "id": 7.1,
+      "title": "No Limits: The Art and Science of High Performance",
+      "binding": "Paperback",
+      "language": "English",
+      "number_Of_Pages": 382,
+      "author": "Mukesh Bansal",
+      "publisher": "Westland",
+      "isbn-10": "9389152232",
+      "isbn-13": "9789389152234",
+      "dimension": "14.0*2.44*21.59",
+      "description": "Tech entrepreneur Mukesh Bansal has been a lifelong student of human performance optimisation. He has studied the science behind it, and worked closely with high performers across business, Sports and entertainment, to understand what it takes to transcend apparent limitations and achieve true potential.Through his entrepreneurial experience and studying the field of health and fitness, Bansal came to understand the enormous power of plasticity: the ability of the human brain to rewire itself at will as we develop new skills. He also realised that high performers across domains rely on common tools that were embraced by ancient wisdom and are validated by modern science. Knowing that high performance is not a matter of Genetics or luck is highly empowering. No Limits distils Bansal’s findings on talent, deliberate practice, mindset, habit, willpower and learning. It is a guide to maximising one’s potential with well-defined strategies. So, no matter what you do, you can be a superior version of yourself, performing at increasingly better levels, constantly reaching higher.",
+      "price": 359.0,
+      "count": 146,
+      "avatar": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSD5xCXCNEv7LQ25B-OnDD-DRI5hxy0yyK3ss-cZyFa38ECYC2ZkyTZpsY"
+    },
+    {
+      "id": 8.1,
+      "title": "Tech Smart: The Perfect Storm",
+      "binding": "Paperback",
+      "language": "English",
+      "number_Of_Pages": 220,
+      "author": "John R Connelly",
+      "publisher": "Archway Publishing",
+      "isbn-10": "1480885347",
+      "isbn-13": "9781480885349",
+      "dimension": "15.24*1.27*22.86",
+      "description": "If you want to make money in the stock market, all the information in the world will not help unless you do some research, devise a game plan, and stay focused. John Connelly shares formulas that can help you determine the trend - bullish or bearish - of an index or security in this trading guide. His system will help you take advantage of price momentum and limit exposure when momentum moves against you. By using the strategies in this guide, you'll be able to: - identify sector leaders that will likely outperform the S&P 500 index; - find free tools and technical Indicators to use in your research; - remove emotional aspects of investing that reduce returns. The book tracks five major markets and fifty-five different indexes around the world by region and country. It also highlights how options, calls, and puts can maximize your chance to make money while minimizing risk. By focusing on when an index or security changes direction and confirming the change has occurred, you can capture the majority of moves. Find out how to do it step by step and start walking down a path that leads to stock market riches.",
+      "price": 992.0,
+      "count": 145,
+      "avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAb-eRoByDGLRBFAvl7qfN9c8hPKO_wPcFlFBwaP3t_NmY6GGkT9a-RptL"
+    },
+    {
+      "id": 9.1,
+      "title": "Iady-Era",
+      "binding": "Paperback",
+      "language": "Dutch",
+      "number_Of_Pages": 36,
+      "author": "Wahab Sheriff",
+      "publisher": "Independently Published",
+      "isbn-10": "1793154244",
+      "isbn-13": "9781793154248",
+      "dimension": "12.7*0.23*20.32",
+      "description": "Niet-exclusief vrouwelijk Viagra-overzicht Het gebruik van Sildenafil Citraat (een functionerend segment in Lady Era-pillen) voor mannelijke seksuele gebrokenheid duurt nog erg lang. In ieder geval heeft de toepassing ervan bij vrouwen in deze tijd een kolossale vraag gehad. De laatste tijd heeft de farmaceutische markt veel generieke Sildenafil-generieke geneesmiddelen ingebracht voor damesgebruik. Hoe het functioneert? Het onderdeel van het werk van vrouwelijke niet-exclusieve Viagra is als zijn activiteit bij mannen. Het onderscheid in fysiologie tussen mensen heeft echter invloed op de effecten van de remedie op beide geslachten. De Viagra-tablet komt in de maag en desintegreert en bereikt binnen 30-uur het hoogtepunt van zijn levensvatbaarheid. Sildenafil zorgt voor het afwikkelen van de aderen die de bekkenorganen aansporen. Daarom vertoont de stroom bloed naar het territorium tekenen van verbetering waardoor vrouwelijke geslachtsorganen steeds kwetsbaarder worden voor ophitsing. Evenzo dient de opname van conventionele Viagra-pillen om: - Verbeter de olie van de vrouwelijke persoonlijke zones; - Verminder kwellende sensaties en ongemak te midden van seks; - Bereik de piek sneller; - Enkele hoogtepunten binnen één geslacht; - Vergroot seksueel verlangen. Het is algemeen gebruik In tegenstelling tot mannen, die Viagra-pillen nemen om een erectie te krijgen, gebruiken vrouwen de oplossing om hun verlangen naar geslachtsgemeenschap te vergroten en hun privézones steeds ontvankelijker voor opwinding te maken. Bovendien worden niet-exclusieve Viagra-pillen regelmatig gebruikt door vrouwen die een kind hebben voortgebracht of die in de richting van de menopauze komen. Beide klassen vrouwelijke patiënten kunnen problemen hebben die verband houden met vaginale droogheid. Het ontbreken van olie veroorzaakt echt ongemak of zelfs pijn tussen de geslachtsgemeenschap. Beheersing van niet-exclusieve Sildenafil kan de omstandigheid verbeteren, aangezien deze regeling zijn levensvatbaarheid heeft aangetoond bij de verbetering van de zalfolie. Voortaan kunnen dames zich enorm verbeterd voelen tijdens het gebruik van de medicatie. Veranderingen in de fysieke indruk van seks leiden tot enthousiaste mensen. Op het moment dat de dames de procedure waarderen, wordt hun drang hoger omdat seksuele betrekkingen nooit meer verbonden zijn met angst of leed. Onvoorstelbare bijwerkingen Sildenafil Citraat zou de reden kunnen zijn voor een aantal lichte tot directe antagonistische reacties. Ernstige symptomen zijn in hoge mate ongewoon en beïnvloeden over het algemeen de personen die bepaalde contra-indicaties hebben voor Viagra. Om het licht en de meeste hebben af en toe aangekondigde negatieve reacties op de genezing een plaats: - Hoofdpijn; - Verstopping van de neus; - Diarree; - Vermoeidheid; - Doorspoelen van het gezicht. Deze zijn allemaal kort en verdwijnen binnen twee of drie uur nadat de activiteit van het medicijn is ingepakt. Niettegenstaande, in het geval dat u geïrriteerd bent door de duur van de bijwerkingen of deze verslechteren, moet u uw leverancier van menselijke diensten ter discussie stellen.",
+      "price": 695.0,
+      "count": 73,
+      "avatar": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQa8eVOaVErl37CefiIq45hrJUmvwSRWb_x2AbyFT1znOmBWJskGgJAynpJ"
+    },
+    {
+      "id": 10.1,
+      "title": "Viagra: A Guide to Powerful and Long Lasting Erection",
+      "binding": "Paperback",
+      "language": "English",
+      "number_Of_Pages": 60,
+      "author": "Libido Booster",
+      "publisher": "Original Life-Saver Publisher",
+      "isbn-10": "1950171442",
+      "isbn-13": "9781950171446",
+      "dimension": "14.0*0.3*21.59",
+      "description": "Key takeawaysViagra starts working around 30-a hour after it's taken and props up around 5 hours For most Men Viagra starts to wear off 2-3 hours after you first take it Everything considered, erections last around 33 minutes if Viagra was taken a hour back If in the wake of taking Viagra you have an erection continuing long than 4 hours that won't leave (priapism), by then endeavor to get settling help as standard as Time licenses Whatever degree does Viagra last?The timespan Viagra continues for will change from individual to individual; paying little notice to it can Work for up to 5 huge bits of time. This doesn't mean you will have an erection for 5 hours, it proposes you will more than likely get them less requesting in the midst of this time",
+      "price": 1925.0,
+      "count": 128,
+      "avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbDT6mPXlILOU98wUE_2LJEhuPTsV-aHzuInTHlxv8Jc17pdhujqC2_wk"
+    },
+    {
+      "id": 11.1,
+      "title": "Fire and Fury",
+      "binding": "Hardcover",
+      "language": "English",
+      "number_Of_Pages": 336,
+      "author": "Michael Wolff",
+      "publisher": "Little, Brown",
+      "isbn-10": "1408711400",
+      "isbn-13": "9781408711408",
+      "dimension": "24.41*3.1*16.41",
+      "description": "With extraordinary access to the Trump White House, Michael Wolff tells the inside story of the most controversial presidency of our time.The first nine months of Donald Trump's term were stormy, outrageous - and absolutely mesmerising. Now, thanks to his deep access to the West Wing, bestselling author Michael Wolff tells the riveting story of how Trump launched a tenure as volatile and fiery as the man himself.In this explosive book, Wolff provides a wealth of new details about the chaos in the Oval Office. Among the revelations: - What President Trump's staff really thinks of him- What inspired Trump to claim he was wire-tapped by President Obama - Why FBI director James Comey was really fired- Why chief strategist Steve Bannon and Trump's son-in-law Jared Kushner couldn't be in the same room - Who is really directing the Trump administration's strategy in the wake of Bannon's firing- What the secret to communicating with Trump is- What the Trump Administration has in common with the movie The ProducersNever before has a presidency so divided the American people. Brilliantly reported and astoundingly fresh, Michael Wolff's Fire and Fury shows us how and why Donald Trump has become the king of discord and disunion.",
+      "price": 1313.0,
+      "count": 61,
+      "avatar": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTz2nbtRgpaczM6k6Dt5Ki-oz6NaJNxbGH1liUerQxjQXJ1cL64DGbYlNk"
+    },
+    {
+      "id": 12.1,
+      "title": "Jammu and Kashmir 1949-1964",
+      "binding": "Paperback",
+      "language": "English",
+      "number_Of_Pages": 388,
+      "author": "Karan Singh",
+      "publisher": "Penguin",
+      "isbn-10": "0143450514",
+      "isbn-13": "9780143450511",
+      "dimension": "",
+      "description": "In 1949, Dr Karan Singh had just turned eighteen when he was appointed regent of Jammu and Kashmir, two years after his father, Maharaja Hari Singh, signed the Instrument of Accession merging the then independent state with India. Under the mentorship of Pandit Jawaharlal Nehru, Dr Singh was at the helm of affairs in the state for eighteen years, successively as regent, Sadar-i-Riyasat and governor.This carefully conceived selection of over 200 letters exchanged between Dr Singh and Pandit Nehru sheds light on significant issues and events, including the teething problems of a fledgling country and a newly grafted state, the emerging conflicts between Pakistan and India, and the Chinese aggression of 1962. In addition to valuable insights into the political situation of the period, these letters also provide rare glimpses into the personal lives and thoughts of Pandit Nehru and Dr Singh. The memorandum submitted by Maharaja Hari Singh to President Rajendra Prasad in August 1952 is published in full, revealing how the identity and future of Kashmir were shaped.A rare collection, Jammu and Kashmir offers an unmatched ringside view of the momentous events in Kashmir and the rest of India after Independence.",
+      "price": 334.0,
+      "count": 151,
+      "avatar": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcS7bg1ur0lAmnNi41FhWO5oihK3RpT0wLpt8Q6vJIEnVCNUoLXKYGcVil5o"
+    },
+    {
+      "id": 13.1,
+      "title": "John Law: A Scottish Adventurer of the Eighteenth Century",
+      "binding": "Paperback , Hardcover",
+      "language": "English",
+      "number_Of_Pages": 528,
+      "author": "James Buchan",
+      "publisher": "Quercus Publishing",
+      "isbn-10": "184866608X",
+      "isbn-13": "9781848666085",
+      "dimension": "12.7*3.18*19.69",
+      "description": "At the summit of his power, John Law was the most famous man in Europe. Born in Scotland in 1671, he was convicted of murder in London and, after his escape from prison, fled Scotland for the mainland when Union with England brought with it a warrant for his arrest. On the continent he lurched from one money-making scheme to the next - selling insurance against losing lottery tickets in Holland, advising the Duke of Savoy - amassing a fortune of some £80,000.But for his next trick he had grander ambitions. When Louis XIV died, leaving a thoroughly bankrupt France to his five-year-old heir, Law gained the ear of the Regent, Philippe D'Orleans. In the years that followed, Law's financial wizardry transformed the fortunes of France, enriching speculators and investors across the continent, and he was made Controller-General of Finances, effectively becoming the French Prime Minister. But the fall from grace that was to follow was every bit as spectacular as his meteoric rise.John Law, by a biographer of Adam Smith and the author of Frozen Desire and Capital of the Mind, dramatises the life of one of the most inventive financiers in history, a man who was born before his time and in whose day the word millionaire came to be coined.",
+      "price": 1089.0,
+      "count": 142,
+      "avatar": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRwJO4DXs57A6zfzSSbYwkKl7G8gJDWJd68WP0aYXGtMcDmOzPuJb0sFOo"
+    },
+    {
+      "id": 14.1,
+      "title": "One Day at Disney: Meet the People Who Make the Magic Across the Globe (Disney Editions Deluxe)",
+      "binding": "Hardcover",
+      "language": "English",
+      "number_Of_Pages": 224,
+      "author": "Bruce Steele",
+      "publisher": "Disney Editions",
+      "isbn-10": "136805224X",
+      "isbn-13": "9781368052245",
+      "dimension": "29.21*3.05*31.5",
+      "description": "Discover what it's like to report to work every day for The Walt Disney Company. Step behind the scenes to immerse yourself in one 'ordinary' day at Disney. In addition to the book, the Disney+ team was on hand to capture stories along the way. A full-length documentary and 52 short-form episodes expand the profiles and delve deeper into the essence of what it's like to be a Disney cast member. On a Thursday in 2019, a small army of photographers and videographers scattered across the globe to capture what goes on beyond those tantalizing 'Cast Members Only' doors - whether eavesdropping on historic endeavors or typical tasks. All the photos in this book were taken on that single Thursday, beginning early in Tokyo and following the sun around the world through Shanghai, Hong Kong, Paris, Madrid, the Bahamas, Costa Rica, and dozens of places throughout the United States. More than 40 hours after it began, the day ended as the sun set on the Aulani resort in Hawaii. On that day, some 80 Cast Members agreed to open up their workshops, dressing rooms, kitchens, cubicles, TV studios, labs, locomotive engines - and some even more surprising and diverse work spaces. They also shared their stories: childhood dreams and chapters, career pivots and triumphs, workaday hurdles and joys. It was just a day in the life, as extraordinary as any other day at Disney. As any Cast Member can tell you, a Disney job is less a destination than a limitless journey. And for just One Day at Disney, we can all tag along for the ride.",
+      "price": 2901.0,
+      "count": 42,
+      "avatar": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTCNpPeklYAJMBN50d76WUriRaT_tf8uVlzumgGkpNNl9WHbpgqND1KR0lx"
+    },
+    {
+      "id": 15.1,
+      "title": "Lunch with the FT",
+      "binding": "Amazon, Hardcover",
+      "language": "English",
+      "number_Of_Pages": 384,
+      "author": "Lionel Barber",
+      "publisher": "Portfolio Penguin",
+      "isbn-10": "0241400686",
+      "isbn-13": "9780241400685",
+      "dimension": "15.24*3.3*23.34",
+      "description": "Lunch with the financial times has been a permanent fixture in the financial times for almost 25 years, featuring presidents, film stars, musical icons and business leaders from around the world. The column is now as well-established institution which has reinvigorated the art of conversation in the convivial, intimate Environment of a long boozy lunch. On its 25th anniversary, lunch with the financial times: a second helping will showcase the most entertaining, incisive and fascinating interviews from the past five years Including those with Donald Trump, Sheryl Sandberg, Richard Branson, Chimamanda Ngozi Adichie, Nigel far age, Eric cantona and Zoella, illustrated in full colour with James Ferguson's famous portraits.",
+      "price": 870.0,
+      "count": 67,
+      "avatar": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRgnuAroOhI-YD_zjYCnG74D47OnM3mUlWzKI7VLscJ1RFHavISfDGoLd8"
+    },
+    {
+      "id": 16.1,
+      "title": "MCQ Bank for CA Final Group II",
+      "binding": "Paperback",
+      "language": "English",
+      "number_Of_Pages": null,
+      "author": "Padhuka",
+      "publisher": "Wolters Kluwer India PVt. LTd.",
+      "isbn-10": "9389335671",
+      "isbn-13": "9789389335675",
+      "dimension": "14.0*0.3*21.59",
+      "description": "Single handy volume for group II subjects. Full coverage of CA Final syllabus applicable for exam. Lucid MCQs for quick understanding and revision of concepts. Br>chapter wise presentation of MCQs with Answers. Knowledge based and application based MCQs. Complete guide to practice before exams.",
+      "price": 428.0,
+      "count": 55,
+      "avatar": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRhrSmOC8LCjhpBfWmqMDv-GbQ-aPVDlyJfGmL1Wlk4vBM9GNPEP_g8mJYM"
+    },
+    {
+      "id": 17.1,
+      "title": "Audit Saar - Complete Revision of Audit in Just 200 Pages For CA Final (Applicable for May 2020 onwards)",
+      "binding": "Paperback",
+      "language": "English",
+      "number_Of_Pages": 210,
+      "author": "CA Khushboo Sanghavi",
+      "publisher": "Invincible Publishers",
+      "isbn-10": "9389600324",
+      "isbn-13": "9789389600322",
+      "dimension": "13.0*2.01*21.01",
+      "description": "Book your copy of 'Audit सार - Super Summary Handwritten Book' By CA Khushboo Sanghavi Features: - 1) Super Crux of massive syllabus. 2) Covering all Amendments upto 30th October 2019.3) Including Reference to Past Exam Questions and RTPs.4) Author's Note for cross Reference and Conceptual Clarity.5) list of Important and expected question",
+      "price": 399.0,
+      "count": 142,
+      "avatar": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcT18XZ3Uq7vyuJmhmnRQuivYwuk7qhq-nm0LmWYIqud7_HQoow-dUvqPEA"
+    },
+    {
+      "id": 18.1,
+      "title": "Complete Biology for NEET",
+      "binding": "Paperback",
+      "language": "English",
+      "number_Of_Pages": 1424,
+      "author": "Satwant Singh Bhatia",
+      "publisher": "McGraw Hill Education",
+      "isbn-10": "9387572331",
+      "isbn-13": "9789387572331",
+      "dimension": "Complete Biology is aimed at aspirants appearing in NEET and other medical college entrance examinations. It Covers the latest syllabi of these examinations and is broadly based on the NCERT curriculum. The book offers comprehensive Theory and a plethora of questions, carefully selected for meaningful practice and to test one’s understanding of the concepts.Key Features:1. Comprehensive coverage of the syllabus2. Text supplemented by diagrams and tables3. Each chapter begins with an “Introduction” providing a background of the topic4. The section ‘You Need to Know’ in each chapter presents the must know facts5. ‘Multiple Choice Questions’ and ‘Selected Questions’ from past years’ papers have been included in each chapter6. “Target Medical Entrance Examinations” section contains questions similar to the ones appearing in the actual examination7. Answer Key for all MCQs and “Hints” for selected questions are given.",
+      "description": "",
+      "price": 557.0,
+      "count": 57,
+      "avatar": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQBTv7-kwS0Jty_J9SZ9Cd6CpmrGxcGFppZ4OFRIT_vcsOAp_8VLisvv10"
+    },
+    {
+      "id": 19.1,
+      "title": "Oncology MCQs for NEET-SS (medical oncology and surgical oncology): For NEET-SS, board review and other entrance exams Volume: 2",
+      "binding": "Paperback",
+      "language": "English",
+      "number_Of_Pages": 168,
+      "author": "Dr Bhratri Bhushan",
+      "publisher": "Independently Published",
+      "isbn-10": "1660711177",
+      "isbn-13": "97816607111786",
+      "dimension": "15.24*1.09*22.86",
+      "description": "Volume 1 available at: https: //www.amazon.in/dp/B08371FV41 (e-book)https: //www.amazon.in/dp/1651694524 (paperback)MCQs on cancer staging for NEET-SS is available at: https: //www.amazon.in/dp/B0846RY856When I was preparing for DM entrance, I experienced a dearth of Books on the subject of Oncology and the Books that were available were either not updated or were lacking in depth, that was when I conceived the idea of writing such a book myself.I have written this book purely from the perspective of an oncologist and by relying on the highest quality material, most importantly the Bible of Oncology: DeVita, Hellman, and Rosenberg's Cancer Principles & Practice of Oncology 11th edition. The NCCN guidelines and high impact journals were also referenced as and when needed. The result is this book, which will serve the purpose of equipping the exam going (NEET-SS and board review, along with any other entrance exam where questions about Oncology are asked) doctors with the right tool to test and build their knowledge.As the knowledge in the field of Oncology is unfolding at an unprecedented scale and new strategies are being devised at a prolific pace, it is not possible to provide all of the updated information, all at once. I will be updating this book periodically for this purpose and I would implore readers to keep themselves updated by going through the quarterly updates of DeVita's Oncology that are included with the purchase of the 11th edition and also the NCCN guidelines.In case of any queries and suggestions regarding this book, kindly send to: bhratri@gmail.comDr. Bhratri Bhushan MBBS, MD (Internal medicine), DM (Medical Oncology) is a consultant medical oncologist and hematologist. He has published a number of Books on the subject of Oncology and his papers have been published in renowned journals of medical literature.",
+      "price": 846.0,
+      "count": 38,
+      "avatar": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRqxJ9uYUJrGoCWZAH4_7YfUERMe80NLRkyxok1p75sk64m0xCFZ_wLdj6v"
+    },
+    {
+      "id": 20.1,
+      "title": "Deep Learning with R_p1",
+      "binding": "Paperback",
+      "language": "English",
+      "number_Of_Pages": 335,
+      "author": "Mr Joseph J Allaire",
+      "publisher": "Manning Publications",
+      "isbn-10": "161729554X",
+      "isbn-13": "9781617295546",
+      "dimension": "18.42*1.91*23.5",
+      "description": "DescriptionArtificial intelligence has made some incredible leaps. Deep learning Systems now deliver near-human Speech and image recognition, not to mention machines capable of beating World champion Go masters. Deep learning applies to a widening range of problems, such as question answering, machine translation, and optical character recognition. It’s behind photo tagging, self-driving cars, virtual assistants and other previously impossible applications. Deep Learning with R is for developers and data scientists with some R experience who want to use deep learning to solve real-world problems. The book is structured around a series of practical examples that introduce each new concept and demonstrate best practices. You’ll begin by learning what deep learning is, how it connects with AI and Machine Learning, and why it’s rapidly gaining in importance right now. You’ll then dive into practical applications of computer vision, natural language processing, and more. Key features·   Understand key machine learning concepts·   Set up a computer Environment for deep learning·   Visualize neural networks·   Use recurrent neural networks for text and sequence Classification AudienceYou’ll need intermediate R Programming skills. No previous experience with machine learning or deep learning is required.About the technologyAlthough deep learning can be a challenging subject, new technologies make it much easier to get started than ever before. The Keras deep learning library featured in this book puts ease of use and accessibility front and center, making it a great fit for new practitioners.",
+      "price": 2783.0,
+      "count": 70,
+      "avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxKqI8NYVc08SCQAhSTVtoZ5g7gQ9gEhGvPG22zmt35Zdnu8bgQBYfsBQ"
+    }
+  ],
+  "signUpUsers": {},
+
+  "fakeProducts": [
+    {
+      "id": 45,
+      "name": "in",
+      "desc": "In hac habitasse platea dictumst. Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat. Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.",
+      "cate": "aliquam",
+      "img": "http://dummyimage.com/208x100.png/ff4444/ffffff"
+    },
+    {
+      "id": 86,
+      "name": "nec",
+      "desc": "Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem. Praesent id massa id nisl venenatis lacinia.",
+      "cate": "lobortis",
+      "img": "http://dummyimage.com/223x100.png/dddddd/000000"
+    },
+    {
+      "id": 26,
+      "name": "commodo",
+      "desc": "Donec vitae nisi. Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus. Curabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla. Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam.",
+      "cate": "morbi",
+      "img": "http://dummyimage.com/105x100.png/5fa2dd/ffffff"
+    },
+    {
+      "id": 80,
+      "name": "etiam",
+      "desc": "Donec vitae nisi. Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus. Curabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla. Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam.",
+      "cate": "vel enim",
+      "img": "http://dummyimage.com/113x100.png/ff4444/ffffff"
+    },
+    {
+      "id": 55,
+      "name": "sapien",
+      "desc": "In hac habitasse platea dictumst. Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat. Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem. Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat.",
+      "cate": "mauris lacinia",
+      "img": "http://dummyimage.com/179x100.png/cc0000/ffffff"
+    },
+    {
+      "id": 90,
+      "name": "nisl",
+      "desc": "In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante.",
+      "cate": "ridiculus mus",
+      "img": "http://dummyimage.com/248x100.png/cc0000/ffffff"
+    },
+    {
+      "id": 94,
+      "name": "eget",
+      "desc": "Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl. Aenean lectus.",
+      "cate": "in hac",
+      "img": "http://dummyimage.com/127x100.png/cc0000/ffffff"
+    },
+    {
+      "id": 91,
+      "name": "mauris",
+      "desc": "Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.",
+      "cate": "suscipit ligula",
+      "img": "http://dummyimage.com/104x100.png/cc0000/ffffff"
+    },
+    {
+      "id": 6,
+      "name": "id",
+      "desc": "In hac habitasse platea dictumst. Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat. Curabitur gravida nisi at nibh. In hac habitasse platea dictumst.",
+      "cate": "non mauris",
+      "img": "http://dummyimage.com/168x100.png/5fa2dd/ffffff"
+    },
+    {
+      "id": 46,
+      "name": "turpis",
+      "desc": "Curabitur convallis. Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.",
+      "cate": "tempus",
+      "img": "http://dummyimage.com/247x100.png/5fa2dd/ffffff"
+    },
+    {
+      "id": 2,
+      "name": "adipiscing",
+      "desc": "Proin at turpis a pede posuere nonummy. Integer non velit.",
+      "cate": "nunc",
+      "img": "http://dummyimage.com/173x100.png/dddddd/000000"
+    },
+    {
+      "id": 35,
+      "name": "potenti",
+      "desc": "Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero. Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh. In quis justo. Maecenas rhoncus aliquam lacus.",
+      "cate": "elementum",
+      "img": "http://dummyimage.com/230x100.png/5fa2dd/ffffff"
+    },
+    {
+      "id": 43,
+      "name": "lacinia",
+      "desc": "Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero. Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh. In quis justo.",
+      "cate": "tincidunt",
+      "img": "http://dummyimage.com/149x100.png/5fa2dd/ffffff"
+    },
+    {
+      "id": 8,
+      "name": "id",
+      "desc": "Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus. Curabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla. Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam. Nam tristique tortor eu pede.",
+      "cate": "et ultrices",
+      "img": "http://dummyimage.com/102x100.png/dddddd/000000"
+    },
+    {
+      "id": 50,
+      "name": "arcu",
+      "desc": "Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem. Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat. Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.",
+      "cate": "nulla nisl",
+      "img": "http://dummyimage.com/127x100.png/dddddd/000000"
+    },
+    {
+      "id": 47,
+      "name": "quisque",
+      "desc": "Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem. Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus. Pellentesque at nulla. Suspendisse potenti.",
+      "cate": "maecenas",
+      "img": "http://dummyimage.com/204x100.png/ff4444/ffffff"
+    },
+    {
+      "id": 88,
+      "name": "consequat",
+      "desc": "In est risus, auctor sed, tristique in, tempus sit amet, sem. Fusce consequat. Nulla nisl. Nunc nisl. Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.",
+      "cate": "nulla",
+      "img": "http://dummyimage.com/206x100.png/dddddd/000000"
+    },
+    {
+      "id": 40,
+      "name": "sed",
+      "desc": "Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet. Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui. Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti. Nullam porttitor lacus at turpis.",
+      "cate": "lacinia",
+      "img": "http://dummyimage.com/216x100.png/ff4444/ffffff"
+    },
+    {
+      "id": 48,
+      "name": "eu",
+      "desc": "Vivamus in felis eu sapien cursus vestibulum. Proin eu mi. Nulla ac enim.",
+      "cate": "non",
+      "img": "http://dummyimage.com/153x100.png/5fa2dd/ffffff"
+    },
+    {
+      "id": 2,
+      "name": "at",
+      "desc": "Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl. Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum. Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est. Phasellus sit amet erat. Nulla tempus.",
+      "cate": "libero quis",
+      "img": "http://dummyimage.com/235x100.png/dddddd/000000"
+    },
+    {
+      "id": 70,
+      "name": "ut",
+      "desc": "Morbi ut odio. Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo.",
+      "cate": "tincidunt eget",
+      "img": "http://dummyimage.com/176x100.png/5fa2dd/ffffff"
+    },
+    {
+      "id": 83,
+      "name": "sapien",
+      "desc": "Etiam pretium iaculis justo.",
+      "cate": "scelerisque",
+      "img": "http://dummyimage.com/175x100.png/5fa2dd/ffffff"
+    },
+    {
+      "id": 74,
+      "name": "sapien",
+      "desc": "Duis at velit eu est congue elementum. In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo. Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis. Sed ante. Vivamus tortor. Duis mattis egestas metus.",
+      "cate": "molestie",
+      "img": "http://dummyimage.com/158x100.png/cc0000/ffffff"
+    },
+    {
+      "id": 63,
+      "name": "at",
+      "desc": "Maecenas pulvinar lobortis est.",
+      "cate": "enim",
+      "img": "http://dummyimage.com/114x100.png/5fa2dd/ffffff"
+    },
+    {
+      "id": 85,
+      "name": "quis",
+      "desc": "Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti. Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris. Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.",
+      "cate": "ipsum",
+      "img": "http://dummyimage.com/203x100.png/dddddd/000000"
+    },
+    {
+      "id": 7,
+      "name": "tristique",
+      "desc": "Pellentesque eget nunc.",
+      "cate": "pellentesque ultrices",
+      "img": "http://dummyimage.com/217x100.png/dddddd/000000"
+    },
+    {
+      "id": 75,
+      "name": "eleifend",
+      "desc": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl. Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum. Curabitur in libero ut massa volutpat convallis.",
+      "cate": "pede",
+      "img": "http://dummyimage.com/116x100.png/ff4444/ffffff"
+    },
+    {
+      "id": 63,
+      "name": "suspendisse",
+      "desc": "Maecenas pulvinar lobortis est. Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum. Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.",
+      "cate": "augue",
+      "img": "http://dummyimage.com/221x100.png/5fa2dd/ffffff"
+    },
+    {
+      "id": 73,
+      "name": "viverra",
+      "desc": "Praesent blandit lacinia erat.",
+      "cate": "justo",
+      "img": "http://dummyimage.com/210x100.png/cc0000/ffffff"
+    },
+    {
+      "id": 5,
+      "name": "suscipit",
+      "desc": "Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh. Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros. Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue.",
+      "cate": "pede",
+      "img": "http://dummyimage.com/153x100.png/dddddd/000000"
+    }
+  ]
 }
